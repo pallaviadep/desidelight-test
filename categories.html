@@ -6,13 +6,7 @@
           body{
             background-color:rgb(55, 15, 28);
         }
-        h1{
-            text-align: center;
-            font-family: sans-serif;
-            color:white;
-            font-size: 40px;
-            
-        }
+       
         h2{
             text-align: center;
             font-family: sans-serif;
@@ -20,6 +14,27 @@
             padding:0;
             margin:0;
         }
+        nav{
+    background-color:rgb(55, 15, 28);
+    padding:30px;
+    width:50%;
+    margin:auto;
+    color:black;
+    text-align: center;
+        }
+        nav a{
+    color:white;
+    padding:20px;
+    margin:15px;
+    text-decoration:none;
+    font-size: 25px;
+    font-family: Helvetica;
+}
+
+nav a:hover {
+    color: brown;
+    border: 2px solid;
+}
         .category-section .category-list {
             display: flex;
             flex-wrap: wrap;
@@ -59,7 +74,13 @@
     <main>
         <!-- categories section -->
          <section class="category-section">
-            <h1 class="class"><pre> OUR CATEGORIES</pre></h1>
+             <nav>    
+                <a href="home.html"><b>HOME</b></a>
+                <a href="categories.html"><b>CATEGORIES</b></a>
+                <a href="product.html"><b>PRODUCT</b></a>
+                <a href="order.html"><b>ORDER</b></a>
+             </nav>
+            
             <h2 class="class">select category</h2>
             <div class="section-content">
                 <ul class="category-list">
