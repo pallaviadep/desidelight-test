@@ -8,15 +8,27 @@
             padding:0px;
             box-sizing: border-box;
         }
-        header{
-            font-family: sans-serif;
-            color: white;
-            text-align: center;
-            background-color:rgb(55, 15, 28);
-            margin:10px;
-            padding:10px;
-            border-radius: 30px;
-        }
+        nav{
+    background-color:rgb(55, 15, 28);
+    padding:30px;
+    width:100%;
+    margin:auto;
+    color:black;
+    text-align: center;
+}
+nav a{
+  color:white;
+  padding:20px;
+  margin:15px;
+  text-decoration:none;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+nav a:hover {
+    color: yellow;
+    border: 2px solid;
+}
 
         .product-container{
           background-color: rgb(55, 15, 28);
@@ -51,7 +63,12 @@
 
 <body>
     <header>
-        <h1>PRODUCTS</h1>
+        <nav>    
+                <a href="home.html"><b>HOME</b></a>
+                <a href="categories.html"><b>CATEGORIES</b></a>
+                <a href="product.html"><b>PRODUCT</b></a>
+                <a href="order.html"><b>ORDER</b></a>
+         </nav>
     </header>
 <section class="product-container">
     <div class="product">
