@@ -1,0 +1,51 @@
+body{
+    background-image: url(home1.jpg);
+    background-size:cover;
+
+}
+header{
+    background-color:transparent;
+    padding:1px;
+    border-radius:1px;
+    width:45%;
+    margin:auto;
+    font-family:'Gill Sans';
+    color:rgb(55, 15, 28);
+    text-align: center;
+    font-size:30px;
+}
+
+nav{
+    background-color:transparent;
+    padding:30px;
+    width:50%;
+    margin:auto;
+    color:black;
+    text-align: center;
+}
+nav a{
+  color:rgb(55, 15, 28);
+  padding:20px;
+  margin:15px;
+  text-decoration:none;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+nav a:hover {
+    color: brown;
+    border: 2px solid;
+}
+
+ section{
+    padding: 15px;
+    margin: 15px;
+    background-color:transparent;
+    text-align:center;
+    color:rgb(55, 15, 28);
+ }
+ @media screen and (max-width: 1080px) {
+    nav a{
+        gap:80px;
+    }
+}

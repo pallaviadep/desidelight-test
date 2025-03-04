@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>categories</title>
+    <style>
+          body{
+            background-color:rgb(55, 15, 28);
+        }
+        h1{
+            text-align: center;
+            font-family: sans-serif;
+            color:white;
+            font-size: 40px;
+            
+        }
+        h2{
+            text-align: center;
+            font-family: sans-serif;
+            color: white;
+            padding:0;
+            margin:0;
+        }
+        .category-section .category-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 75px;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        .category-section .category-list .category-item{
+            display:flex;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            width: calc(100% / 3 - 70px);
+            color:white;
+        }
+        .category-section .category-list .category-item .category-image{
+            max-width: 80%;
+            aspect-ratio: 1;
+            margin-bottom: 10px;
+            object-fit: contain;
+            border-radius: 2500px;
+            padding:10px;
+        }
+        @media screen and (max-width: 640px) {
+            .category-section .category-list{
+                gap:60px;
+            }
+            .category-section .category-list .category-item{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- categories section -->
+         <section class="category-section">
+            <h1 class="class"><pre> OUR CATEGORIES</pre></h1>
+            <h2 class="class">select category</h2>
+            <div class="section-content">
+                <ul class="category-list">
+                    <li class="category-item">
+                        <a href="product.html">
+                        <img src="mk1.jpg" alt="milk sweets"  class="category-image"></a>
+                        <h3 class="name">Milk based sweets</h3>
+                        <p class="text">Milk based sweets are a true delight! They are rich,creamy,smooth and melt-in-your mouth texture.Whether enjoyed during festivals and celebrations.</p>
+                    </li>
+                    <li class="category-item">
+                        <a href="product.html">
+                        <img src="dryfruit.webp" alt="dryfruit sweets"   class="category-image"></a>
+                        <h3 class="name">Dryfurit based sweets</h3>
+                        <p class="text">Dry fruit sweet are a delightful fusion of taste and nutrition.perfect for festive occasions or as a daily treat its bring burst of flavor and goodness with every bite.</p>
+                    </li>
+                    <li class="category-item">
+                        <a href="product.html">
+                        <img src="flour.jpg" alt="flour sweets"  class="category-image"></a>
+                        <h3 class="name">Flour based sweets</h3>
+                        <p class="text">Flour based sweets are cornerstone of many culinary traditions offering a diverse array of textures and flavors.perfect for festivals and celebration.</p>
+                    </li>
+                </ul>
+            </div>
+         </section>
+    </main>
+</body>
+</html>
